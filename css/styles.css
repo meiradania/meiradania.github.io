@@ -232,7 +232,7 @@ section.orange {
 }
 
 section.green {
-  background-color: #80C980;
+  background-color: #99CC99;
 }
 
 section.skin {
@@ -328,6 +328,34 @@ section.pink {
   float: right;
   text-align: left;
 }
+
+#portfolio .portfolio-icon {
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 610px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px 5px 0 0;
+  text-align: justify;
+  padding: 2px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+} 
+
+#portfolio .title {
+  text-transform: uppercase;
+  font-style: oblique;
+  min-width: 100px;
+  max-width: 200px;
+  width: 100%;
+  display: grid;
+  background-color: rgba(50, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 2px 5px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 
 .pagination .page-item.active .page-link {
   background-color: black;
